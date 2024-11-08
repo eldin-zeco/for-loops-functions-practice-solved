@@ -6,7 +6,17 @@
 
 export function concatArrays(arr1, arr2) {
   // Your code goes here...
+  let fusedArray = []
 
+  for (const letter of arr1) {
+    fusedArray.push(letter)
+  }
+
+  for (const letter of arr2) {
+    fusedArray.push(letter)
+  }
+  
+  return fusedArray
 }
 
 

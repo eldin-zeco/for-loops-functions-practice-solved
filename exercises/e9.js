@@ -6,7 +6,14 @@
 
 export function getClientsWithBalanceOverOneHundred(array) {
   // Your code goes here...
+  let overOneHundredAccounts = []
 
+  for (const account of array) {
+    if (account.balance > 100) {
+      overOneHundredAccounts.push(account)
+    }
+  }
+  return overOneHundredAccounts
 }
 
 

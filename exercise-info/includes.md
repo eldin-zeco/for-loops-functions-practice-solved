@@ -15,7 +15,7 @@ For this exercise we want you to build a isArrayIncludes() function that solves 
 
 A isArrayIncludes() function should
 * Take an array and a value as arguments (2)
-* Return boolean that stands fo that fact that the array includes the value or not.
+* Return boolean that stands for the fact that the array includes the value or not.
 
 ---
 #### Resources
